@@ -12,12 +12,12 @@ namespace Yield
         static void Main(string[] args)
         { 
             
-            foreach (string element in UserCollection.Power())
+            foreach (string element in Yield.Power())
             {
                 Console.WriteLine(element);
             }
 
-            IEnumerable enumerable = UserCollection.Power();
+            IEnumerable enumerable = Yield.Power();
 
             IEnumerator enumerator = enumerable.GetEnumerator();
 
