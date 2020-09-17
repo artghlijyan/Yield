@@ -27,8 +27,6 @@ namespace Yield
 
                 Console.WriteLine(element);
             }
-
-            Console.ReadKey();
         }
     }
 }

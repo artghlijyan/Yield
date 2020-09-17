@@ -12,7 +12,8 @@ namespace Yield
     {
         public static IEnumerable Power()
         {
-            yield return "Hello World";
+            return UnderYield.Power();
+            //yield return "Hello World";
         }
     }
 
